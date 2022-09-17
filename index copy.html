@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kritlada Profile Site</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
+</head>
+
+<style>
+    body {
+        background:white;
+        color: black;
+    }
+</style>
+<style>
+    button {
+        padding: 20px 50px;
+        font-size: 1rem;
+        cursor: pointer;
+        border: 0px;
+        background: transparent;
+        position: relative;
+        margin: 20px;
+        transition: all 0.25s ease;
+    }
+
+    .btn-3:hover::after{
+        width: 100%;
+    }
+    .btn-3::after{
+        content: "";
+        position: absolute;
+        border-radius: inherit;
+        width: 10%;
+        height: 5px;
+        background: rgb(206, 77, 73);
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: all 0.25s ease;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    *a{
+        text-decoration: none;
+    }
+</style>
+<style>
+    body {
+        background-image: url('https://i.pinimg.com/originals/44/18/90/441890b006b35935ac92a2aaa987456c.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 25%;
+      background-position: 10px 430px;
+    }
+  </style>
+<body>
+    <!-- Header -->
+    <!-- Ref:https://developer.mozilla.org/en-US/docs/Web/CSS/font-family-->
+    <h1 style="text-align: center; font-family: cursive;">Profile</h1>
+    <h2 style="text-align: center; font-family: cursive; font-weight:normal">
+        I'm Kritlada Tanawattanatakul</h2>  
+    <h4 style="text-align: center; font-family: Aclonica ; font-weight:normal"><i>
+        "Sleep More"</i></h4>    
+    <hr>
+    <!-- Menu -->
+    <table style="width:100%; text-align: center">
+        <tr>
+            <body>
+            <td>
+                <button class="btn-3"><a href="index.html"style="text-decoration: none;"><font style="color:black">Profile</font></a></button>
+            </td>
+            <td>
+                <button class="btn-3"><a href="experiences.html"style="text-decoration: none;"><font style="color:black">Experiences</font></a></button>
+            </td>
+            <td>
+                <button class="btn-3"><a href="abilities.html"style="text-decoration: none;"><font style="color:black">Abilities</font></a></button>
+            <td>
+                <button class="btn-3"><a href="projects.html"style="text-decoration: none;"><font style="color:black">Projects</font></a></button>
+            </td>
+            <td>
+                <button class="btn-3"><a href="contact.html"style="text-decoration: none;"><font style="color:black">Contact</font></a></button>
+            </td>
+        </tr>
+    </table>  
+    
+    <table>
+        <tr>
+            <th style="width: 33.33%; vertical-align: top;"><h2 >About me</h2>
+                <p style="font-weight:normal; text-align: justify;">&nbsp;&nbsp;&nbsp;
+                    I'm 19 year old, Now I'm study at Bangkok University Multimedia and Entertainment Engineering
+                </p>
+                <p>Website: <a href="https://www.Kritlada.tana.com/">Kritlada.tana.com</a></p>
+                <p>Email: <a href="mailto: kritlada.tana@bu.ac.th">kritlada.tana@bu.ac.th</a></p>
+            </th>
+            <th style="width: 33.33%; vertical-align: top;">
+                <!--Crop Circle Image: https://crop-circle.imageonline.co/-->
+                <p><img src="images/profile.png" alt="Kritlada Tanawattanatakul" style="width: 40%;"></p>
+                </th>
+                <th style="width: 33.33%; vertical-align: top; text-align: left;"><h2>Details</h2>
+                <p>Name:</p>
+                    <p style="font-weight:normal;">Kritlada Tanawattanatakul</p>
+                <p>Location:</p>
+                    <p style="font-weight:normal;">Thailand</p>
+                    <p>Social Media:</p>
+                    <!--Reference Social Media Icons-->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+                    <!--Icons Class Reference: https://www.w3schools.com/icons/icons_reference.asp-->
+                    <p><a href="https://www.facebook.com/profile.php?id=100003305794549" class="fa fa-facebook-square" target="_blank" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+                        <a href="https://www.instagram.com/smile_kritlada/" class="fa fa-instagram" target="_blank" style="font-size: 40px; color: brown;"></a>
+                    </p>
+            </th>
+        </tr>
+    </table>
+
+    <p style="text-align: center;">© 2022 Kritlada Tanawattanatakul</p>
+</body>
+</html>
